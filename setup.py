@@ -1,15 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from distribute_setup import use_setuptools
-use_setuptools()
-
 from setuptools import setup, find_packages
 
 
 setup(
     name='gevent-psycopg2',
-    version='0.0.3',
+    version='0.0.4',
     description='pip-installable package for patching psycopg2 to use gevent',
     author='Zachary Voase',
     author_email='z@dvxhouse.com',
